@@ -1,0 +1,17 @@
+[
+    {
+        "id": "1",
+        "title": "Hello world",
+        "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    {
+        "id": "2",
+        "title": "Middle note",
+        "content": "Foo bar blah blah blah."
+    },
+    {
+        "id": "3",
+        "title": "The third note",
+        "content": "Oogabooga."
+    }
+]
