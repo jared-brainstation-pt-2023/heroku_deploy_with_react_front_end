@@ -1,18 +1,19 @@
-# Express II
+# Deploy React App with Node Server to Heroku
 
-## Steps to Demo
+## Client Folder
 
-1. Lecture about Express Router
-2. Demo router
-3. Lecture about Middleware
-4. Demo middleware
-5. Lecture about static files
-6. Demo static files
-7. Lecture about CORS
-8. Demo cors by connecting with a client app
+1. Locally, navigate to client folder, ```cd client```
+2. run ```npm i``` to install all the npm packages 
+3. run ```npm build``` to create all of the static files from the react project
+4. run ```rm -rf node_modules/``` to delete all of the node_modules from the client directory
 
-## Notes
+## Deployment (From Main Directory)
 
-- Building out the whole practical "notes" API with several endpoints in `noteRoutes.js` can be done while demoing router, or more toward the end of the lecture.
-- There is a lot to cover this lecture, so the order of the demo might depend on student questions
-- Focus on the most important parts
+1. Create Github repo
+2. ```git init```
+3. ```git remote add origin <GITHUB_REPO>```
+4. ```git add .```
+5. ```git commit -m 'heroku deployment'```
+6. ```git push --set-upstream origin main```
+7. ```heroku create```
+7. ```git push heroku main```
